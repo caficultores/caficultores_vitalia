@@ -1,0 +1,397 @@
+{
+  "server-component": {
+    "welcome": "Welcome"
+  },
+  "header": {
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "howItWorks": "How It Works",
+      "joinNow": "Join Now"
+    },
+    "changeLang": {
+      "title": "Esta página está en inglés",
+      "button": "Cambiar a español"
+    }
+  },
+  "hero": {
+    "titleOne": "Empowering Coffee Growers Through",
+    "titleTwo": "Sensory Analysis",
+    "titleThree": "Certification",
+    "subtitle": "Connect with expert cuppers and elevate your coffee's value with professional sensory analysis.",
+    "growersCTA": "I'm a Coffee Grower",
+    "cuppersCTA": "I'm a Cupper"
+  },
+  "features": {
+    "title": "Our Features",
+    "featureOne": {
+      "title": "Sensory Analysis for Growers",
+      "description": "Document your coffee's unique sensory profile with a secure digital certificate"
+    },
+    "featureTwo": {
+      "title": "Direct Certification Process",
+      "description": "Connect directly with expert cuppers for authentic evaluation and certification of your coffee"
+    },
+    "featureThree": {
+      "title": "Quality Recognition",
+      "description": "Gain recognition for the exceptional quality of your coffee on the global market"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "stepOne": {
+      "title": "Request Analysis",
+      "description": "Coffee growers submit a request for sensory analysis of their coffee lot."
+    },
+    "stepTwo": {
+      "title": "Cupper Acceptance",
+      "description": "Certified cuppers review and accept offers to perform sensory analysis."
+    },
+    "stepThree": {
+      "title": "Professional Analysis",
+      "description": "The coffee is evaluated by the cupper."
+    },
+    "stepFour": {
+      "title": "Certificate Creation",
+      "description": "A digital certificate representing your coffee's sensory profile is generated."
+    },
+    "stepFive": {
+      "title": "Showcase Your Quality",
+      "description": "Use your certificate to prove and promote your coffee's exceptional quality."
+    }
+  },
+  "community": {
+    "title": "Our Expert Community",
+    "featureOne": {
+      "title": "Certified Cuppers",
+      "description": "Our global network of expert cuppers ensures precise and reliable evaluations."
+    },
+    "featureTwo": {
+      "title": "Rigorous Verification",
+      "description": "All cuppers undergo a thorough verification process to ensure their expertise and credibility."
+    },
+    "featureThree": {
+      "title": "Collaborative Community",
+      "description": "Fosters knowledge exchange between coffee growers and coffee experts."
+    },
+    "joinAsCupperCTA": "Join as a Cupper"
+  },
+  "register": {
+    "title": "Join caficultores.co",
+    "description": "Register to certify your coffee",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "registerCTA": "Register",
+    "orRegisterWith": "Or register with",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithFacebook": "Continue with Facebook",
+    "alreadyHaveAnAccount": "Already have an account?",
+    "signIn": "Sign in"
+  },
+  "login": {
+    "title": "Welcome back to caficultores.co",
+    "description": "Here you can sign in to your account",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "forgotPassword": "Forgot your password?",
+    "signIn": "Sign in",
+    "orSignInWith": "Or sign in with",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithFacebook": "Continue with Facebook",
+    "noAccount": "No account?",
+    "signUp": "Sign up"
+  },
+  "completeProfile": {
+    "title": "Complete Your Profile",
+    "description": "Tell us about yourself and your coffee farm",
+    "personalInformation": "Personal Information",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "coffeeFarm": "Coffee Farm",
+    "save": "Save",
+    "country": "Country",
+    "selectCountry": "Select country",
+    "region": "Region",
+    "municipality": "Municipality",
+    "farmInformation": "Farm Information",
+    "farmName": "Farm Name",
+    "specificLocation": "Specific Location",
+    "farmSize": "Farm Size (hectares)",
+    "altitude": "Altitude (meters)",
+    "cultivationDetails": "Cultivation Details",
+    "varieties": "Coffee Varieties Grown",
+    "processingMethods": "Processing Methods",
+    "noMethodFound": "No method found.",
+    "annualProduction": "Annual Production (kg)",
+    "certifications": "Certifications and Achievements",
+    "certificationLabel": "Certifications (Optional)",
+    "achievementsLabel": "Achievements (Optional)",
+    "certificationsDescription": "Add any certifications or achievements related to your coffee production.",
+    "achievementsDescription": "Add any achievements related to your coffee production.",
+    "onlinePresence": "Online Presence",
+    "socialMedia": "Social Media",
+    "socialMediaDescription": "Add links to your social media profiles.",
+    "website": "Website",
+    "websitePlaceholder": "https://",
+    "farmPhotos": "Farm Photos",
+    "farmPhotosDescription": "Upload up to 2 photos of your farm.",
+    "uploadMorePhotos": "Upload More Photos",
+    "saveProfile": "Save Profile"
+  },
+  "cupperProfileCompletion": {
+    "title": "Complete Your Profile",
+    "description": "Provide your information to start performing coffee sensory analysis",
+    "personalInformation": "Personal Information",
+    "fullName": "Full Name",
+    "location": "Location",
+    "profilePhoto": "Profile Photo",
+    "uploadImage": "Upload Image",
+    "professionalInformation": "Professional Information",
+    "certifications": "Certifications",
+    "selectCertifications": "Select your certifications",
+    "yearsOfExperience": "Years of Experience",
+    "enterYearsOfExperience": "Enter your years of experience",
+    "spokenLanguages": "Spoken Languages",
+    "selectLanguages": "Select languages you speak",
+    "analysisPreferences": "Analysis Preferences",
+    "preferredCoffeeStyles": "Preferred Coffee Styles",
+    "varietyTypes": "Variety Types",
+    "specializationRegions": "Specialization Regions",
+    "contactInformation": "Contact Information",
+    "professionalEmail": "Professional Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn (optional)",
+    "help": "Help",
+    "saveChanges": "Save Changes"
+  },
+  "cupperDashboard": {
+    "welcome": "Welcome, {name}",
+    "subtitle": "Manage your sensory analysis requests and review your certification history",
+    "pendingRequests": "Pending Requests",
+    "analysisInProgress": "Analysis in Progress",
+    "issuedCertificates": "Issued Certificates",
+    "averageScore": "Average Score",
+    "farmName": "Farm",
+    "monthlyActivity": "Monthly Activity",
+    "notifications": "Notifications",
+    "startAnalysis": "Start Analysis",
+    "viewCertificate": "View Certificate",
+    "helpResources": "Help & Resources",
+    "requestDate": "Requested at",
+    "coffeeName": "Brand",
+    "deadline": "Deadline",
+    "issueDate": "Issue Date",
+    "score": "Score",
+    "variety": "Variety",
+    "region": "Region",
+    "id": "ID"
+  },
+  "cupperCertificationRequest": {
+    "title": "Sensory Analysis Record",
+    "subtitle": "Enter the coffee sensory analysis results",
+    "lotInformation": {
+      "certificationId": "Certification ID",
+      "variety": "Variety",
+      "region": "Region",
+      "altitude": "Altitude",
+      "processingMethod": "Processing Method"
+    },
+    "sensoryCriteria": {
+      "fragrance": "Fragrance",
+      "aroma": "Aroma",
+      "flavor": "Flavor",
+      "aftertaste": "Aftertaste",
+      "acidity": "Acidity",
+      "body": "Body",
+      "balance": "Balance",
+      "sweetness": "Sweetness",
+      "cleanCup": "Clean Cup",
+      "uniformity": "Uniformity"
+    },
+    "overallScore": "Overall Score",
+    "finalEvaluation": "Final Evaluation",
+    "finalEvaluationPlaceholder": "Enter your detailed comments about the coffee's sensory profile...",
+    "saveButton": "Save",
+    "submitButton": "Submit Certificate",
+    "toasts": {
+      "analysisSaved": {
+        "title": "Analysis saved",
+        "description": "The sensory analysis results have been successfully saved."
+      },
+      "certificateGenerated": {
+        "title": "Certificate generated",
+        "description": "The digital certificate has been successfully generated and sent."
+      }
+    }
+  },
+  "certificateDetails": {
+    "title": "Sensory Analysis Certificate",
+    "subtitle": "Certification ID",
+    "scaScore": "SCA Score",
+    "certificationDate": "Certification Date",
+    "cupperInCharge": "Cupper in Charge",
+    "coffeeVariety": "Coffee Variety",
+    "origin": "Origin",
+    "cupProfile": "Cup Profile",
+    "detailedResults": "Detailed Results",
+    "finalEvaluation": "Final Evaluation",
+    "downloadCertificate": "Download Certificate",
+    "fragrance": "Fragrance",
+    "aroma": "Aroma",
+    "flavor": "Flavor",
+    "aftertaste": "Aftertaste",
+    "acidity": "Acidity",
+    "body": "Body",
+    "balance": "Balance",
+    "sweetness": "Sweetness",
+    "cleanCup": "Clean Cup",
+    "uniformity": "Uniformity"
+  },
+  "growerDashboard": {
+    "status": "Status",
+    "PENDING": "Pending",
+    "COMPLETED": "Completed",
+    "IN_PROGRESS": "In Progress",
+    "title": "My Sensory Analysis Certificates",
+    "altitude": "Altitude",
+    "pendingCertificates": "Pending Certificates",
+    "description": "Overview of your recent sensory analysis certificates",
+    "descriptionPedingCertificates": "Overview of your pending sensory analysis certificates",
+    "certificationStatus": "Certification Status",
+    "requestNewCertificate": {
+      "title": "Request New Sensory Analysis Certificate",
+      "description": "Start the process for a new sensory analysis certification",
+      "button": "New Request"
+    },
+    "coffeeName": "Coffee Name",
+    "city": "City",
+    "province": "Province",
+    "harvestDate": "Harvest Date",
+    "village": "Village",
+    "district": "District",
+    "farmName": "Farm Name",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "quantity": "Quantity",
+    "municipality": "Municipality",
+    "processingMethod": "Processing Method",
+    "requester": "Requester",
+    "requestedAt": "Requested At",
+    "expectedResults": "Expected Results",
+    "tastingNotes": "Tasting Notes",
+    "coffeeVarieties": "Coffee Varieties",
+    "additionalInformation": "Additional Information",
+    "certificateRequestDetail": {
+      "title": "Sensory Analysis Certificate Request",
+      "description": "Detailed information about your sensory analysis certificate request"
+    },
+    "performanceInsights": {
+      "title": "Performance Information",
+      "description": "Analytics and trends for your certified coffees",
+      "chartPlaceholder": "Chart",
+      "viewAnalytics": "View Detailed Analytics"
+    },
+    "helpAndSupport": {
+      "title": "Help and Support",
+      "description": "Get assistance with the sensory analysis certification process",
+      "faqs": "Frequently Asked Questions",
+      "support": "Contact Support",
+      "tutorials": "Video Tutorials"
+    },
+    "footer": {
+      "platformName": "Sensory Analysis Certification Platform for Coffee Growers",
+      "privacyPolicy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact",
+      "copyright": "© 2024 Coffee Sensory Analysis Certification. All rights reserved."
+    },
+    "viewAllCertificates": "View All Sensory Analysis Certificates",
+    "certifiedOn": "Certified on"
+  },
+  "growerCertificationRequest": {
+    "title": "Sensory Analysis Certificate Request",
+    "subtitle": "Complete the lot information to request a sensory analysis",
+    "coffeeInformation": {
+      "variety": "Coffee Variety",
+      "harvestDate": "Harvest Date",
+      "altitude": "Altitude (meters)",
+      "altitudePlaceholder": "E.g. 1500",
+      "processingMethod": "Processing Method",
+      "province": "Province",
+      "city": "City",
+      "region": "Region",
+      "regionPlaceholder": "E.g. Huila, Colombia",
+      "sampleQuantity": "Sample Quantity (g)",
+      "sampleQuantityPlaceholder": "E.g. 250",
+      "village": "Village",
+      "district": "District",
+      "farmName": "Farm Name",
+      "coffeeName": "Coffee Brand Name"
+    },
+    "sensoryNotes": {
+      "expectedNotes": "Expected Cupping Notes",
+      "expectedNotesPlaceholder": "Describe the sensory notes you expect from your coffee",
+      "analysisExpectations": "Sensory Analysis Expectations (Optional)",
+      "analysisExpectationsPlaceholder": "Detail specific characteristics you would like considered in the cupping"
+    },
+    "status": "Status",
+    "submitButton": "Submit Request",
+    "toasts": {
+      "requestSent": {
+        "title": "Request sent",
+        "description": "Your certification request has been successfully registered."
+      }
+    }
+  },
+  "logout": "Sign Out",
+  "coffeeGrowersBenefits": {
+    "title": "Benefits for Coffee Growers",
+    "benefitOne": {
+      "title": "Reliable Sensory Analysis Certificates",
+      "description": "Obtain digital certificates that demonstrate your coffee's quality, backed by expert cuppers."
+    },
+    "benefitTwo": {
+      "title": "New Market Opportunities",
+      "description": "Attract buyers interested in specialty coffees with certificates that validate your product's quality."
+    },
+    "benefitThree": {
+      "title": "Progress Tracking",
+      "description": "Monitor how your coffee quality improves over time with a detailed record of your previous scores."
+    },
+    "benefitFour": {
+      "title": "Valuable Connections",
+      "description": "Connect directly with cuppers and buyers to build trusted relationships in the industry."
+    }
+  },
+  "cuppersBenefits": {
+    "title": "Benefits for Cuppers",
+    "benefitOne": {
+      "title": "Professional Recognition",
+      "description": "Your sensory analyses are digitally recorded, backing your expertise and knowledge in the sector."
+    },
+    "benefitTwo": {
+      "title": "Discover Exceptional Coffees",
+      "description": "Work with producers committed to excellence and expand your network in the industry."
+    },
+    "benefitThree": {
+      "title": "Contribute to Coffee Quality",
+      "description": "Help create a transparent system that elevates quality standards in the coffee industry."
+    },
+    "benefitFour": {
+      "title": "Professional Growth",
+      "description": "Participate in an innovative platform that seeks to improve the entire coffee value chain."
+    }
+  },
+  "roleSelection": {
+    "hello": "Hello!",
+    "pleaseSelectRole": "Please select your role to continue",
+    "grower": "I'm a Coffee Grower",
+    "growerDescription": "Access to manage your coffee lots and request quality analysis.",
+    "continueAsGrower": "Continue as Coffee Grower",
+    "cupper": "I'm a Cupper",
+    "cupperDescription": "Access to perform sensory analysis and issue quality certificates.",
+    "continueAsCupper": "Continue as Cupper"
+  }
+}

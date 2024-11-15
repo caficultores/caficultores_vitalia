@@ -1,0 +1,186 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+}
+
+model Role {
+  id    String          @id @default(uuid())
+  name  String
+  users UsersHasRoles[]
+
+  @@map("roles")
+}
+
+model User {
+  id                     String                 @id @default(uuid())
+  name                   String
+  lastName               String?
+  email                  String                 @unique
+  image                  String
+  emailVerified          DateTime?
+  password               String?
+  created_at             DateTime               @default(now())
+  updated_at             DateTime               @updatedAt
+  roles                  UsersHasRoles[]
+  accounts               Account[]
+  certification_requests CertificationRequest[]
+
+  @@map("users")
+}
+
+model UsersHasRoles {
+  users_id String
+  roles_id String
+
+  user User @relation(fields: [users_id], references: [id])
+  role Role @relation(fields: [roles_id], references: [id])
+
+  @@id([users_id, roles_id])
+  @@map("users_has_roles")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model ProcessingMethod {
+  id                     String                 @id @default(uuid())
+  name                   String
+  certification_requests CertificationRequest[]
+
+  @@map("processing_methods")
+}
+
+model CertificationStatus {
+  id                     String                 @id @default(uuid())
+  name                   String
+  certification_requests CertificationRequest[]
+
+  @@map("certification_statuses")
+}
+
+model CoffeeVariety {
+  id                     String                                    @id @default(uuid())
+  name                   String
+  certification_requests CertificationRequestsHasCoffeeVarieties[]
+
+  @@map("coffee_varieties")
+}
+
+model CertificationRequestsHasCoffeeVarieties {
+  certification_requests_id String
+  coffee_varieties_id       String
+
+  certification_request CertificationRequest @relation(fields: [certification_requests_id], references: [id])
+  coffee_variety        CoffeeVariety        @relation(fields: [coffee_varieties_id], references: [id])
+
+  @@id([certification_requests_id, coffee_varieties_id])
+  @@map("certification_requests_has_coffee_varieties")
+}
+
+model CertificationRequest {
+  id                        String                                    @id @default(uuid())
+  harvest_date              DateTime
+  altitude                  Int
+  requested_at              DateTime                                  @default(now())
+  expected_results          String
+  quantity                  Int
+  certificates_id           String?
+  users_id                  String
+  processing_methods_id     String
+  certification_statuses_id String
+  created_at                DateTime                                  @default(now())
+  updated_at                DateTime                                  @updatedAt
+  municipalities_id         String?
+  cities_id                 String?
+  district                  String?
+  farm_name                 String?
+  coffee_name               String?
+  provinces_id              String?
+  village                   String?
+  user                      User                                      @relation(fields: [users_id], references: [id])
+  municipality              Municipality?                             @relation(fields: [municipalities_id], references: [id])
+  city                      City?                                     @relation(fields: [cities_id], references: [id])
+  province                  Province?                                 @relation(fields: [provinces_id], references: [id])
+  processing_method         ProcessingMethod                          @relation(fields: [processing_methods_id], references: [id])
+  certification_status      CertificationStatus                       @relation(fields: [certification_statuses_id], references: [id])
+  tasting_notes             String                                    @default("")
+  coffee_varieties          CertificationRequestsHasCoffeeVarieties[]
+  certificate               Certificate?
+
+  @@map("certification_requests")
+}
+
+model Municipality {
+  id                    String                 @id @default(uuid())
+  name                  String
+  certification_request CertificationRequest[]
+
+  @@map("municipalities")
+}
+
+model City {
+  id                    String                 @id @default(uuid())
+  name                  String
+  provinceId           String                  // Add this field
+  province             Province               @relation(fields: [provinceId], references: [id])
+  certification_request CertificationRequest[]
+
+  @@map("cities")
+}
+
+model Province {
+  id                    String   @id @default(cuid())
+  name                  String
+  cities               City[]
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+  CertificationRequest CertificationRequest[]
+
+  @@map("provinces")
+}
+
+model Certificate {
+  id                        String   @id @default(uuid())
+  certification_requests_id String   @unique
+  fragrance_score           Float
+  aroma_score               Float
+  flavor_score              Float
+  aftertaste_score          Float
+  acidity_score             Float
+  body_score                Float
+  balance_score             Float
+  sweetness_score           Float
+  clean_cup_score           Float
+  uniformity_score          Float
+  overall_score             Float
+  final_assessment          String
+  certified_by              String
+  certified_at              DateTime
+  nft_certificate_id        String?
+  growers_id                String
+  cupper_id                 String
+  certification_request     CertificationRequest @relation(fields: [certification_requests_id], references: [id])
+
+  @@map("certificates")
+}

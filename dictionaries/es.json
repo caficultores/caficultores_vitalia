@@ -1,0 +1,397 @@
+{
+  "server-component": {
+    "welcome": "Bienvenido"
+  },
+  "header": {
+    "menu": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "howItWorks": "Cómo Funciona",
+      "joinNow": "Únete Ahora"
+    },
+    "changeLang": {
+      "title": "This page is in Spanish",
+      "button": "Switch to English"
+    }
+  },
+  "hero": {
+    "titleOne": "Empoderando a los Caficultores a través del",
+    "titleTwo": "Análisis Sensorial",
+    "titleThree": "Certificado",
+    "subtitle": "Conéctate con catadores expertos y eleva el valor de tu café con un análisis sensorial respaldado por un certificado digital seguro.",
+    "growersCTA": "Soy Caficultor",
+    "cuppersCTA": "Soy Catador"
+  },
+  "features": {
+    "title": "Nuestras Características",
+    "featureOne": {
+      "title": "Análisis Sensorial para Caficultores",
+      "description": "Captura el perfil sensorial único de tu café en un certificado digital seguro y verificable"
+    },
+    "featureTwo": {
+      "title": "Certificación Directa y Transparente",
+      "description": "Conéctate directamente con catadores expertos para una evaluación y certificación auténtica de tu café"
+    },
+    "featureThree": {
+      "title": "Reconocimiento de Calidad",
+      "description": "Obtén reconocimiento por la calidad excepcional de tu café en el mercado global"
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "stepOne": {
+      "title": "Solicitar Análisis",
+      "description": "Los caficultores envían una solicitud para el análisis sensorial de su lote de café."
+    },
+    "stepTwo": {
+      "title": "Aceptación del Catador",
+      "description": "Los catadores certificados revisan y aceptan ofertas para realizar análisis sensoriales."
+    },
+    "stepThree": {
+      "title": "Análisis Sensorial Directo",
+      "description": "El café es evaluado por el catador."
+    },
+    "stepFour": {
+      "title": "Creación del Certificado Digital",
+      "description": "Se genera un certificado digital único que representa el perfil sensorial de tu café."
+    },
+    "stepFive": {
+      "title": "Muestra tu Calidad",
+      "description": "Usa tu certificado digital para demostrar y promover la calidad excepcional de tu café."
+    }
+  },
+  "community": {
+    "title": "Nuestra Comunidad de Expertos",
+    "featureOne": {
+      "title": "Catadores Certificados",
+      "description": "Nuestra red global de catadores expertos asegura evaluaciones precisas y confiables."
+    },
+    "featureTwo": {
+      "title": "Verificación Rigurosa",
+      "description": "Todos los catadores pasan por un proceso de verificación exhaustivo para garantizar su experiencia y credibilidad."
+    },
+    "featureThree": {
+      "title": "Comunidad Colaborativa",
+      "description": "Fomenta el intercambio de conocimientos entre caficultores y expertos en café."
+    },
+    "joinAsCupperCTA": "Únete como Catador"
+  },
+  "register": {
+    "title": "Únete a caficultores.co",
+    "description": "Regístrate para certificar tu café",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "passwordLabel": "Contraseña",
+    "registerCTA": "Registrarse",
+    "orRegisterWith": "O regístrate con",
+    "continueWithGoogle": "Continuar con Google",
+    "continueWithFacebook": "Continuar con Facebook",
+    "alreadyHaveAnAccount": "¿Ya tienes una cuenta?",
+    "signIn": "Iniciar sesión"
+  },
+  "login": {
+    "title": "Bienvenido de nuevo a caficultores.co",
+    "description": "Aquí puedes iniciar sesión en tu cuenta",
+    "emailLabel": "Correo electrónico",
+    "passwordLabel": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "signIn": "Iniciar sesión",
+    "orSignInWith": "O inicia sesión con",
+    "continueWithGoogle": "Continuar con Google",
+    "continueWithFacebook": "Continuar con Facebook",
+    "noAccount": "¿No tienes cuenta?",
+    "signUp": "Regístrate"
+  },
+  "completeProfile": {
+    "title": "Completa tu Perfil",
+    "description": "Cuéntanos sobre ti y tu finca cafetera",
+    "personalInformation": "Información Personal",
+    "fullName": "Nombre Completo",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "coffeeFarm": "Finca Cafetera",
+    "save": "Guardar",
+    "country": "País",
+    "selectCountry": "Selecciona el país",
+    "region": "Región",
+    "municipality": "Municipio",
+    "farmInformation": "Información de la Finca",
+    "farmName": "Nombre de la Finca",
+    "specificLocation": "Ubicación Específica",
+    "farmSize": "Tamaño de la Finca (hectáreas)",
+    "altitude": "Altitud (metros)",
+    "cultivationDetails": "Detalles de Cultivo",
+    "varieties": "Variedades de Café Cultivadas",
+    "processingMethods": "Métodos de Procesamiento",
+    "noMethodFound": "No se encontró método.",
+    "annualProduction": "Producción Anual (kg)",
+    "certifications": "Certificaciones y Logros",
+    "certificationLabel": "Certificaciones (Opcional)",
+    "achievementsLabel": "Logros (Opcional)",
+    "certificationsDescription": "Agrega cualquier certificación o logro relacionado con tu producción de café.",
+    "achievementsDescription": "Agrega cualquier logro relacionado con tu producción de café.",
+    "onlinePresence": "Presencia en Línea",
+    "socialMedia": "Redes Sociales",
+    "socialMediaDescription": "Agrega enlaces a tus perfiles de redes sociales.",
+    "website": "Sitio Web",
+    "websitePlaceholder": "https://",
+    "farmPhotos": "Fotos de la Finca",
+    "farmPhotosDescription": "Sube hasta 2 fotos de tu finca.",
+    "uploadMorePhotos": "Subir Más Fotos",
+    "saveProfile": "Guardar Perfil"
+  },
+  "cupperProfileCompletion": {
+    "title": "Completa tu Perfil",
+    "description": "Proporciona tu información para comenzar a realizar análisis sensoriales de café",
+    "personalInformation": "Información Personal",
+    "fullName": "Nombre Completo",
+    "location": "Ubicación",
+    "profilePhoto": "Foto de Perfil",
+    "uploadImage": "Subir Imagen",
+    "professionalInformation": "Información Profesional",
+    "certifications": "Certificaciones",
+    "selectCertifications": "Selecciona tus certificaciones",
+    "yearsOfExperience": "Años de Experiencia",
+    "enterYearsOfExperience": "Ingresa tus años de experiencia",
+    "spokenLanguages": "Idiomas Hablados",
+    "selectLanguages": "Selecciona los idiomas que hablas",
+    "analysisPreferences": "Preferencias de Análisis",
+    "preferredCoffeeStyles": "Estilos de Café Preferidos",
+    "varietyTypes": "Tipos de Variedades",
+    "specializationRegions": "Regiones de Especialización",
+    "contactInformation": "Información de Contacto",
+    "professionalEmail": "Correo Profesional",
+    "phone": "Teléfono",
+    "linkedin": "LinkedIn (opcional)",
+    "help": "Ayuda",
+    "saveChanges": "Guardar Cambios"
+  },
+  "cupperDashboard": {
+    "welcome": "Bienvenido, {name}",
+    "subtitle": "Gestiona tus solicitudes de análisis sensorial y revisa tu historial de certificaciones",
+    "pendingRequests": "Solicitudes Pendientes",
+    "analysisInProgress": "Análisis en Progreso",
+    "issuedCertificates": "Certificados Emitidos",
+    "averageScore": "Puntuación Promedio",
+    "farmName": "Finca",
+    "coffeeName": "Marca",
+    "monthlyActivity": "Actividad Mensual",
+    "notifications": "Notificaciones",
+    "startAnalysis": "Iniciar Análisis",
+    "viewCertificate": "Ver Certificado",
+    "helpResources": "Ayuda y Recursos",
+    "requestDate": "Solicitado el",
+    "deadline": "Fecha Límite",
+    "issueDate": "Fecha de Emisión",
+    "score": "Puntuación",
+    "variety": "Variedad",
+    "region": "Región",
+    "id": "ID"
+  },
+  "cupperCertificationRequest": {
+    "title": "Registro de Análisis Sensorial",
+    "subtitle": "Ingresa los resultados del análisis sensorial del café",
+    "lotInformation": {
+      "certificationId": "ID de Certificación",
+      "variety": "Variedad",
+      "region": "Región",
+      "altitude": "Altitud",
+      "processingMethod": "Método de Procesamiento"
+    },
+    "sensoryCriteria": {
+      "fragrance": "Fragancia",
+      "aroma": "Aroma",
+      "flavor": "Sabor",
+      "aftertaste": "Postgusto",
+      "acidity": "Acidez",
+      "body": "Cuerpo",
+      "balance": "Balance",
+      "sweetness": "Dulzura",
+      "cleanCup": "Taza Limpia",
+      "uniformity": "Uniformidad"
+    },
+    "overallScore": "Puntuación General",
+    "finalEvaluation": "Evaluación Final",
+    "finalEvaluationPlaceholder": "Ingresa tus comentarios detallados sobre el perfil sensorial del café...",
+    "saveButton": "Guardar",
+    "submitButton": "Enviar Certificado",
+    "toasts": {
+      "analysisSaved": {
+        "title": "Análisis guardado",
+        "description": "Los resultados del análisis sensorial se han guardado exitosamente."
+      },
+      "certificateGenerated": {
+        "title": "Certificado generado",
+        "description": "El certificado digital se ha generado y enviado exitosamente."
+      }
+    }
+  },
+  "certificateDetails": {
+    "title": "Certificado de Análisis Sensorial",
+    "subtitle": "ID de Certificación",
+    "scaScore": "Puntuación SCA",
+    "certificationDate": "Fecha de Certificación",
+    "cupperInCharge": "Catador Responsable",
+    "coffeeVariety": "Variedad de Café",
+    "origin": "Origen",
+    "cupProfile": "Perfil de Taza",
+    "detailedResults": "Resultados Detallados",
+    "finalEvaluation": "Evaluación Final",
+    "downloadCertificate": "Descargar Certificado",
+    "fragance": "Fragancia",
+    "aroma": "Aroma",
+    "flavor": "Sabor",
+    "aftertaste": "Postgusto",
+    "acidity": "Acidez",
+    "body": "Cuerpo",
+    "balance": "Balance",
+    "sweetness": "Dulzura",
+    "cleanCup": "Taza Limpia",
+    "uniformity": "Uniformidad"
+  },
+  "growerDashboard": {
+    "status": "Estado",
+    "PENDING": "Pendiente",
+    "COMPLETED": "Completado",
+    "IN_PROGRESS": "En Proceso",
+    "title": "Mis Certificados de Análisis Sensorial",
+    "pendingCertificates": "Certificados Pendientes",
+    "altitude": "Altitud",
+    "description": "Resumen de tus certificados de análisis sensorial recientes",
+    "descriptionPedingCertificates": "Resumen de tus certificados de análisis sensorial pendientes",
+    "certificationStatus": "Estado de Certificación",
+    "requestNewCertificate": {
+      "title": "Solicitar Nuevo Certificado de Análisis Sensorial",
+      "description": "Inicia el proceso para una nueva certificación de análisis sensorial",
+      "button": "Nueva Solicitud"
+    },
+    "coffeeName": "Nombre del Café",
+    "city": "Ciudad",
+    "province": "Departamento",
+    "harvestDate": "Fecha de Cosecha",
+    "village": "Vereda",
+    "district": "Corregimiento",
+    "farmName": "Nombre de la Finca",
+    "createdAt": "Creado el",
+    "updatedAt": "Actualizado el",
+    "quantity": "Cantidad",
+    "municipality": "Municipio",
+    "processingMethod": "Método de Procesamiento",
+    "requester": "Solicitante",
+    "requestedAt": "Solicitado el",
+    "expectedResults": "Resultados Esperados",
+    "tastingNotes": "Notas de Catación",
+    "coffeeVarieties": "Variedades de Café",
+    "additionalInformation": "Información Adicional",
+    "certificateRequestDetail": {
+      "title": "Solicitud de Certificado de Análisis Sensorial",
+      "description": "Información detallada sobre tu solicitud de certificado de análisis sensorial"
+    },
+    "performanceInsights": {
+      "title": "Información de Rendimiento",
+      "description": "Análisis y tendencias de tus cafés certificados",
+      "chartPlaceholder": "Gráfico",
+      "viewAnalytics": "Ver Análisis Detallado"
+    },
+    "helpAndSupport": {
+      "title": "Ayuda y Soporte",
+      "description": "Obtén asistencia con el proceso de certificación de análisis sensorial",
+      "faqs": "Preguntas Frecuentes",
+      "support": "Contactar Soporte",
+      "tutorials": "Tutoriales en Video"
+    },
+    "footer": {
+      "platformName": "Plataforma de Certificación de Análisis Sensorial para Caficultores",
+      "privacyPolicy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "contact": "Contacto",
+      "copyright": "© 2024 Certificación de Análisis Sensorial de Café. Todos los derechos reservados."
+    },
+    "viewAllCertificates": "Ver Todos los Certificados de Análisis Sensorial",
+    "certifiedOn": "Certificado el"
+  },
+  "growerCertificationRequest": {
+    "title": "Solicitud de Certificado de Análisis Sensorial",
+    "subtitle": "Completa la información del lote para solicitar un análisis sensorial",
+    "coffeeInformation": {
+      "variety": "Variedad de Café",
+      "harvestDate": "Fecha de Cosecha",
+      "altitude": "Altitud (metros)",
+      "altitudePlaceholder": "Ej. 1500",
+      "processingMethod": "Método de Procesamiento",
+      "province": "Departamento",
+      "city": "Ciudad",
+      "region": "Región",
+      "regionPlaceholder": "Ej. Huila, Colombia",
+      "sampleQuantity": "Cantidad de Muestra (g)",
+      "sampleQuantityPlaceholder": "Ej. 250",
+      "village": "Vereda",
+      "district": "Corregimiento",
+      "farmName": "Nombre de la Finca",
+      "coffeeName": "Nombre de la Marca de su café"
+    },
+    "sensoryNotes": {
+      "expectedNotes": "Notas de Catación Esperadas",
+      "expectedNotesPlaceholder": "Describe las notas sensoriales que esperas de tu café",
+      "analysisExpectations": "Expectativas de Análisis Sensorial (Opcional)",
+      "analysisExpectationsPlaceholder": "Detalla características específicas que te gustaría que se consideren en la catación"
+    },
+    "status": "Estado",
+    "submitButton": "Enviar Solicitud",
+    "toasts": {
+      "requestSent": {
+        "title": "Solicitud enviada",
+        "description": "Tu solicitud de certificación ha sido registrada exitosamente."
+      }
+    }
+  },
+  "logout": "Cerrar sesión",
+  "coffeeGrowersBenefits": {
+    "title": "Beneficios para Caficultores",
+    "benefitOne": {
+      "title": "Certificados de análisis sensorial confiables",
+      "description": "Obtén certificados digitales que demuestran la calidad de tu café, respaldados por expertos catadores."
+    },
+    "benefitTwo": {
+      "title": "Nuevas oportunidades de mercado",
+      "description": "Atrae a compradores interesados en cafés especiales con certificados que respaldan la calidad de tu producto."
+    },
+    "benefitThree": {
+      "title": "Seguimiento del progreso",
+      "description": "Observa cómo mejora la calidad de tu café a lo largo del tiempo con un registro detallado de tus puntajes anteriores."
+    },
+    "benefitFour": {
+      "title": "Conexiones Valiosas",
+      "description": "Conéctate directamente con catadores y compradores para construir relaciones de confianza en la industria."
+    }
+  },
+  "cuppersBenefits": {
+    "title": "Beneficios para Catadores",
+    "benefitOne": {
+      "title": "Reconocimiento Profesional",
+      "description": "Tus análisis sensoriales son registrados digitalmente, respaldando tu experiencia y conocimiento en el sector."
+    },
+    "benefitTwo": {
+      "title": "Descubre Cafés Excepcionales",
+      "description": "Trabaja con productores comprometidos con la excelencia y expande tu red en la industria."
+    },
+    "benefitThree": {
+      "title": "Contribuye a la Calidad del Café",
+      "description": "Ayuda a crear un sistema transparente que eleva los estándares de calidad en la industria del café."
+    },
+    "benefitFour": {
+      "title": "Crecimiento Profesional",
+      "description": "Participa en una plataforma innovadora que busca mejorar toda la cadena de valor del café."
+    }
+  },
+  "roleSelection": {
+    "hello": "Hola!",
+    "pleaseSelectRole": "Por favor, selecciona tu rol para continuar",
+    "grower": "Soy Caficultor",
+    "growerDescription": "Accede para gestionar tus lotes de café y solicitar análisis de calidad.",
+    "continueAsGrower": "Continuar como Caficultor",
+    "cupper": "Soy Catador",
+    "cupperDescription": "Accede para realizar análisis sensoriales y emitir certificados de calidad.",
+    "continueAsCupper": "Continuar como Catador"
+  }
+}
